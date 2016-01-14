@@ -21,7 +21,7 @@ Route::get('/login', function()
 	return View::make('login');
 });
 
-Route::get('/productos', function()
+Route::get('/empresas', function()
 {
 	return View::make('blank');
 });

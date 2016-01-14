@@ -245,8 +245,8 @@
                             <!-- /input-group -->
                         </li>
                 
-                        <li {{ (Request::is('*productos') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('productos') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Productos</a>
+                        <li {{ (Request::is('*empresas') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('empresas') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Empresas</a>
                         </li>
                         <li {{ (Request::is('*empleados') ? 'class="active"' : '') }}>
                             <a href="{{ url ('empleados') }}"><i class="glyphicon glyphicon-user"></i> Empleados</a>
