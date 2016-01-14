@@ -26,6 +26,60 @@ Route::get('/productos', function()
 	return View::make('blank');
 });
 
+Route::get('/empleados', function()
+{
+	return View::make('blank');
+});
+
+Route::get('/clientes', function()
+{
+	return View::make('blank');
+});
+
+Route::get('/proveedores', function()
+{
+	return View::make('blank');
+});
+
+Route::get('/gestiona', function()
+{
+	return View::make('blank');
+});
+
+Route::get('/remitoi', function()
+{
+	return View::make('blank');
+});
+
+Route::get('/compras', function()
+{
+	return View::make('blank');
+});
+
+Route::get('/ventas', function()
+{
+	return View::make('blank');
+});
+
+Route::get('/caja', function()
+{
+	return View::make('blank');
+});
+
+Route::get('/cuentac', function()
+{
+	return View::make('blank');
+});
+
+Route::get('/stock', function()
+{
+	return View::make('blank');
+});
+
+Route::get('/complementos', function()
+{
+	return View::make('blank');
+});
 /*Route::get('/charts', function()
 {
 	return View::make('mcharts');

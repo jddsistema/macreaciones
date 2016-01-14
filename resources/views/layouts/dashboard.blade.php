@@ -252,34 +252,34 @@
                             <a href="{{ url ('empleados') }}"><i class="glyphicon glyphicon-user"></i> Empleados</a>
                         </li>
                         <li {{ (Request::is('*clientes') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('clientes') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Clientes</a>
+                            <a href="{{ url ('clientes') }}"><i class="fa fa-users"></i> Clientes</a>
                         </li>
-                        <li {{ (Request::is('*productos') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('productos') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Proveedores</a>
+                        <li {{ (Request::is('*proveedores') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('proveedores') }}"><i class="fa fa-truck"></i> Proveedores</a>
                         </li>
-                        <li {{ (Request::is('*productos') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('productos') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Gestion de Artículos</a>
+                        <li {{ (Request::is('*gestiona') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('gestiona') }}"><i class="fa fa-archive"></i> Gestion de Artículos</a>
                         </li>
-                        <li {{ (Request::is('*productos') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('productos') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Remitos Internos</a>
+                        <li {{ (Request::is('*remitoi') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('remitoi') }}"><i class="fa fa-file-word-o"></i> Remitos Internos</a>
                         </li>
-                        <li {{ (Request::is('*productos') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('productos') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Compra</a>
+                        <li {{ (Request::is('*compras') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('compras') }}"><i class="fa fa-cart-arrow-down"></i> Compras</a>
                         </li>
-                        <li {{ (Request::is('*productos') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('productos') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Ventas</a>
+                        <li {{ (Request::is('*ventas') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('ventas') }}"><i class="fa fa-cc-visa"></i> Ventas</a>
                         </li>
-                        <li {{ (Request::is('*productos') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('productos') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Caja</a>
+                        <li {{ (Request::is('*caja') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('caja') }}"><i class="glyphicon glyphicon-briefcase"></i> Caja</a>
                         </li>
-                        <li {{ (Request::is('*productos') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('productos') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Cuenta Corriente</a>
+                        <li {{ (Request::is('*cuentac') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('cuentac   ') }}"><i class="fa fa-money"></i> Cuenta Corriente</a>
                         </li>
-                         <li {{ (Request::is('*productos') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('productos') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Stock</a>
+                         <li {{ (Request::is('*stock') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('stock') }}"><i class="glyphicon glyphicon-list-alt"></i> Stock</a>
                         </li>
-                        <li {{ (Request::is('*productos') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('productos') }}"><i class="glyphicon glyphicon-shopping-cart"></i> Complementos</a>
+                        <li {{ (Request::is('*complementos') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('complementos') }}"><i class="fa fa-cog"></i> Complementos</a>
                         </li>
                     </ul>
                 </div>
